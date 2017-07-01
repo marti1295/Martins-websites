@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Learning CSS</title>
+	<style type="text/css">
+		body{background-color:red;
+				background-image:url("https://static.pexels.com/photos/33359/grass-meadow-green-forest.jpg");
+				background-repeat:repeat-x;
+				background-attachment:fixed;
+				background-position:center;}
+
+
+				p{
+					padding-top:80px
+					padding-right:80px
+					padding-left:80px
+					padding-bottom:80px;
+				}
+
+			.capitals{
+			background-color:black;
+			border:10px,dashed grass-meadow-green-forest;
+			border-radius: 10px;
+			color:white;
+			margin:20px 0 20px 0;
+			padding:20px;
+			}
+
+			.feedback{
+				background-color:black;
+				border:10px, dashed grass-meadow-green-forest;
+				border-radius: 10px;
+				color:white;
+				margin:20px 0 20px 0;
+				padding:20px;
+			}
+		#special{
+				background-color:black;
+				color:white;
+		}
+	</style>
+</head>
+<body>
+	<div class="capitals">
+		<h1>London</h1>
+		<p>,<u>London is the capital of England.</u></p>
+		<img src="https://www.cheapflights.co.uk/news/wp-content/uploads/2016/03/11-people-you-ll-find-in-london-01-620x414.jpg">
+	</div>
+	<div class="capitals">
+		<h1>Paris</h1>
+		<p><u>Paris is the capital of France.</u></p>
+		<img src="http://duncan.co/wp-content/uploads/2010/05/paris-breakdancers.jpg">
+	</div>
+	<div class="capitals" id="special">
+		<h1>Tokyo</h1>
+		<p>,<u>Tokyo is the capital of Japan.</u></p>
+		<img src="https://media-cdn.tripadvisor.com/media/photo-s/04/bf/c3/b0/tokyo.jpg">
+	</div>
+	<table align=center style="text-align:center; color:white;
+		cellpadding="10">
+			<tr bgcolor="black">
+				<th scope="col"></th>
+				<th scope="col"><font size="6">London</font></th>
+				<th scope="col"><font size="6">Paris</font></th>
+				<th scope="col"><font size="6">Tokyo</font></th>
+			</tr>
+			<tr bgcolor="grey">
+				<th scope="row"><font size="5">Population</font></th>
+				<td><font size="5">11 million</font></td>
+				<td><font size="5">12 million</font></td>
+				<td><font size="5">13 million</font></td>
+			</tr>
+		</table>
+		<div class="feedback">
+		<form align=center style="text-align;color:white">
+		<p><font size="6">Which one is your favorite city?</font> <br>
+			<select name="cities">
+				<option value="London">London</option>
+				<option value="Paris">Paris</option>
+				<option value="Tokyo">Tokyo</option>
+			</select>
+		</p>
+		</form>
+		</div>
+</body>
+</html>
